@@ -17,6 +17,7 @@ MD Siumulation				{#missing}
 ------------------------
 
 ![Simulation]({{ '/styles/images/nelb-fadd.png' | prepend: site.baseurl  }})
+![Simulation2]({{'/styles/images/ksmh0-a3y4c.gif'| prepend: site.baseurl  }})
 
 [MD simulations Refference](http://ibi.hzau.edu.cn/ComputationalBiochemistry/index2.html)
 
