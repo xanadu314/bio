@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>Navigation</title>
+
+<style type="text/css">
+body {
+	background-color: #FFFFFF;
+}
+
+.Manu > ul > li > a:link { font-size: 1em; color: #0066cb; text-decoration: none; border-color: #000000} 
+.Manu > ul > li > a:visited { font-size: 1em; color:#0066cb; text-decoration: none; border-color: #000000}
+.Manu > ul > li > a:hover { font-size: 1.1em; color: #999999; text-decoration: underline; border-color: #000000 }
+
+.Manu > ul > li > ul > li > a:link { font-size: 1em; color: #FFFFFF; text-decoration: none; border-color: #000000} 
+.Manu > ul > li > ul > li > a:visited { font-size: 1em; color:#FFFFFF; text-decoration: none; border-color: #000000}
+.Manu > ul > li > ul > li > a:hover { font-size: 1em; color: #a1b4f8; text-decoration: underline; border-color: #000000 }
+
+.Root {
+	margin: 0 auto;
+}
+.Manu {
+	overflow: hidden;
+	display: inline-block;
+	}
+.Manu li{
+	width:100%;
+}
+.Manu a{
+	text-decoration: none;
+}
+
+.Manu > ul > li > ul {
+	position:absolute;
+	display:none;
+}
+
+.Manu > ul > li:hover ul {
+	display: block;
+}
+
+.Manu ul, .Manu li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.Manu > ul > li > a {
+        line-height: 40px;
+        color: black;
+        text-align: center;
+        border: 1px solid;
+        display: block;
+    }
+	
+.Manu > ul > li > ul > li > a {
+        line-height: 36px;
+        color: white;
+        text-align: center;
+        border: 1px solid;
+        display: block;
+		background-color: #0066cb;
+    }
+</style>
+
+</head>
+
+<body>
+<div class="Root" align="center">
+	<div class="Manu">
+	<ul>
+		<li><a href="index2.html" target="_parent"><strong>Home</strong></a></li>
+		<li><a href="http://ibi.hzau.edu.cn/ComputationalBiochemistry/Lectures.html"target="mainFrame"><strong>Lectures</strong></a></li>
+		<li><a href="http://ibi.hzau.edu.cn/ComputationalBiochemistry/Linuxcommand.html" target="mainFrame"><strong>Linux command</strong></a></li>
+		<li><a href="http://ibi.hzau.edu.cn/ComputationalBiochemistry/VimEditor.html" target="mainFrame"><strong>VI Editor</strong></a></li>
+		<li><a href="http://ibi.hzau.edu.cn/ComputationalBiochemistry/VMD.html" target="mainFrame"><strong>VMD</strong></a></li>
+		<li>
+			<a href="http://ibi.hzau.edu.cn/ComputationalBiochemistry/project1_1.html" target="mainFrame"><strong>Project1</strong></a>
+			<ul>
+				<li><a href="http://ibi.hzau.edu.cn/ComputationalBiochemistry/project1_1.html" target="mainFrame">Sequence Alignment</a></li>
+				<li><a href="http://ibi.hzau.edu.cn/ComputationalBiochemistry/project1_2.html" target="mainFrame">Homology Modeling</a></li>
+				<li><a href="http://ibi.hzau.edu.cn/ComputationalBiochemistry/project1_3.html" target="mainFrame">Get TOP & CRD</a></li>
+				<li><a href="http://ibi.hzau.edu.cn/ComputationalBiochemistry/project1_4.html" target="mainFrame">Dynamics Simulation</a></li>
+				<li><a href="http://ibi.hzau.edu.cn/ComputationalBiochemistry/project1_5.html" target="mainFrame">MD Analysis</a></li>
+			</ul>
+		</li>
+		<li><a href="http://ibi.hzau.edu.cn/ComputationalBiochemistry/project2_1.html" target="mainFrame"><strong>Project2</strong></a></li>
+		<li><a href="http://ibi.hzau.edu.cn/ComputationalBiochemistry/Assessment.html" target="mainFrame"><strong>Assessment</strong></a></li>
+
+		<li>&nbsp</li>
+	</ul>
+	</div>
+</div>
+</body>
+</html>
