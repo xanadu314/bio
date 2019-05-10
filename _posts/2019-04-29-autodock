@@ -1,0 +1,118 @@
+---
+layout: post
+title:  autodock protein & ligand
+date:   2019-04-29 00:00:00 +0800
+categories: document
+tag: 教程
+---
+
+* content
+{:toc}
+
+
+autodock			{#missing}
+====================================
+
+## semi flexible docking 
+1. remove water from PDB file(pymol)
+2. Add  Polar Only hydrogenation (Autodock Tools)
+3. Grid molecular and add charges (Autodock Tools Grid,Save as *.pdbqt file)
+4. Do the same to the ligand pdb file.
+5. Choose Grid——Grid Box size and location
+6. edit vina.conf 
+receptor = 6eyr_pol_HOH_rigid.pdbqt #受体
+ligand = pi45p_4ns0.pdbqt #配体
+out = ssek3_pi45p.pdbqt #输出文件
+log =log.txt #日志文件
+center_x = -36 #对接中心x
+center_y = -20 #对接中心y
+center_z = 8 #对接中心z
+size_x = 40 # 对接box size
+size_y = 40
+size_z = 40
+exhaustiveness = 10 #穷尽
+num_modes =10 #结果个数
+seed = 6 
+cpu = 8
+7. bash vina --config vina.conf 
+8. view result by pymol 
+## Installation
+# all the programmes can be installed in Windows with WSL
+[Refference 1](http://blog.sciencenet.cn/blog-3373966-1090704.html)
+[2](https://blog.csdn.net/duwenyi2017/article/details/83472067)
+How to install AutoDock Vina on Ubuntu?
+General Article
+Published on July 29, 2017  in Softwares/Tools  by Muniba Faiza
+AutoDock Vina is one of the most popular software in Bioinformatics, known for the molecular docking simulations. I have already explained the docking procedure in my previous article. In this small tutorial, we will learn how to install AutoDock Vina on Ubuntu. Its installation on Ubuntu may be a tedious process, especially for the beginners due to the unfamiliarity of the Linux commands. It is expected to work on any version of Ubuntu but make sure whether your system supports the 32- bit or 64- bit version. If you face any problem, then feel free to ask. You need a good Internet connection as you will have to download different files. We need to download the following software to install AutoDock Vina:
+
+MGL Tools (AutoDock Tools are important as they provide the GUI)
+AutoDock Vina
+Python
+AutoDock4
+Autogrid
+Getting started
+It is good to update and upgrade your Ubuntu system first. Log into your Ubuntu system and open the terminal by pressing Ctrl+Alt+T altogether. and type the following commands:
+$ sudo apt-get update
+$ sudo apt-get upgrade
+
+Downloading the files
+Now we are going to download the above-mentioned files one by one. You can download them either directly by visiting the websites or you can download using the command line as follows. It basically downloads in the ‘Downloads’ folder, so we will enter into this directory and download the files using the command line.
+$ cd Downloads/
+$ wget http://mgltools.scripps.edu/downloads/tars/releases/REL1.5.6/mgltools_i86Linux2_1.5.6.tar.gz
+$ wget http://vina.scripps.edu/download/autodock_vina_1_1_2_linux_x86.tgz
+
+It is good to install python PIL because most of the times it prompts an error for imaging C module during the installation.
+$ wget http://effbot.org/downloads/Imaging-1.1.7.tar.gz
+In my case, this issue was not resolved even after installing the imaging C module, then I installed the following library and it resolved my case. If you also get the same error even after installing python imaging library, then try the following:
+$ sudo apt-get install libjpeg62:i386
+
+Although AutoDock Vina can run without installing AutoDock4 and Autogrid, you will need them if you run the  AutoDock4 analysis from AutoDock Vina itself. Therefore, it is better to install them. In order to download them, you will have to type the following commands:
+$ sudo wget http://autodock.scripps.edu/downloads/autodock-registration/tars/dist426/autodocksuite-4.2.6-i86Linux2.tar
+
+Installation
+Now that we have the tar files in the Downloads folder, we will extract and install them one by one. Let’s install AutoDock suite first, then later the MGL tools, and AutoDock Vina. To install them, open the terminal and go to the Downloads folder again.
+$ cd Downloads
+$ tar xvf autodocksuite-4.2.6-i86Linux2.tar
+This will create a new directory called “i86Linux2” in the Downloads directory, in which we could see two executable files: “autodock4” and “autogrid”. We will move them to another directory where we keep the binaries.
+$ cd i86Linux2
+$ sudo mv autodock4 /usr/local/bin
+$ sudo mv autogrid4 /usr/local/bin
+Now we will come back to our Downloads directory to install the rest of the files. Let’s install mgltools.
+$ cd Downloads
+$ tar xvzf mgltools_i86Linux2_1.5.6.tar.gz
+This will extract files of mgl tools and create a folder named “mgltools_i86Linux2_1.5.6”. Now to install it, we will go to the mgl tools directory.
+$ cd mgltools_i86Linux2_1.5.6
+$ ./install.sh
+During installation, a dialog box will prompt on your screen, its the license agreement, so just click “Ok”. If everything goes well, then the terminal will show “MGLTools installation complete”. It will also ask to create aliases to run them because it’s a tedious task to write the full path every time we run them. So it is convenient to create aliases which I will tell you a little later after we finish installation of AutoDock Vina.
+
+We have installed mgl tools on the system, now we will go for AutoDock Vina. To do that, let’s go back to our Downloads folder, where we downloaded the tar files.
+$ cd Downloads/
+$ tar xvzf autodock_vina_1_1_2_linux_x86.tgz
+After extracting the tar file of AutoDock Vina, you will see a folder in your Downloads directory named “autodock_vina_1_1_2_linux_x86”, which consists of a bin folder where you could see two setup files for vina: “vina” & “vina_split”.
+This ends the installation section of our tutorial. Now we have successfully installed AutoDock Vina on Ubuntu. In the following section, I will tell you how to create aliases for the paths.
+
+Creating aliases
+If you would see the README file in the bin folder of mgl tools, it shows the paths for running the autodock tools and python molecular viewer. Using these paths, we will create aliases and to use them permanently we will add them in the bashrc file.
+Open the terminal and type the following commands:
+$ gedit ~/.bashrc
+
+It will open the bashrc file, go at the end of this file and type the following:
+alias adt='sudo /home/username/Downloads/mgltools_i86Linux2_1.5.6/bin/adt'
+alias pmv='sudo /home/username/Downloads/mgltools_i86Linux2_1.5.6/bin/pmv'
+
+Save the file, go back to the terminal and enter the following command:
+$ source ~/.bashrc
+
+Now, whenever you will type ‘adt’ or ‘pmv’, it will open the autodock vina or pymol viewer respectively.
+
+We are all done! You can perform docking on your Ubuntu system using AutoDock Vina whenever you want. 🙂
+
+For any query, you can comment below, or email me at muniba@bioinformaticsreview.com.
+
+UPDATE:
+For Ubuntu version 16.04 and above, autodock vina can be installed using the command line:
+
+$ sudo apt-get install autodock-vina
+
+Reference
+Trott, O., & Olson, A. J. (2010). AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. Journal of computational chemistry, 31(2), 455-461.
