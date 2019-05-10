@@ -18,8 +18,8 @@ MD Siumulation				{#zhugeliang}
 
 ![Simulation]({{ '/styles/images/nelb-fadd.png' | prepend: site.baseurl  }})
 
-
-Refference [http://ibi.hzau.edu.cn/ComputationalBiochemistry/index2.html]
+[MD simulations Refference](http://ibi.hzau.edu.cn/ComputationalBiochemistry/index2.html)
+ 
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
