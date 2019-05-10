@@ -19,7 +19,8 @@ MD Siumulation				{#missing}
 ![Simulation]({{ '/styles/images/nelb-fadd.png' | prepend: site.baseurl  }})
 
 [MD simulations Refference](http://ibi.hzau.edu.cn/ComputationalBiochemistry/index2.html)
-[test my website](/styles/images/index.html)
+
+[test my website](https://xanadu314.github.io/mdsimulations/)
  
 
 [jekyll]:      http://jekyllrb.com
