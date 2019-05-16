@@ -8,7 +8,18 @@ tag: 教程
 
 * content
 {:toc}
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?c </script>
+formula1: $$n==x$$
 
+formula2: $$n!=x$$
+
+formula3: (m==y)
+
+formula4: [m!=y]
+
+formula5: \(k==z\)
+
+formula6: \[k!=z\]
 
 致谢							{#Thanks}
 ====================================
@@ -29,6 +40,17 @@ tag: 教程
 ```bash
 git clone https://github.com/luoyan35714/LessOrMore.git
 ```
+
+
+$$a*b$$
+<p>
+\begin{align}\notag 
+\dot{x}&=\mathbf{A}x+\mathbf{B}u\\
+y&=\begin{bmatrix}1&0\\
+0&1\end{bmatrix}x+\begin{bmatrix}1&0\\
+0&1\end{bmatrix}u
+\end{align}
+</p>
 
 配置							{#Configuration}
 ------------------------------------
