@@ -1,33 +1,22 @@
 ---
 layout: post
-title:  如何使用LessOrMore这个Jekyll模版
-date:   2016-08-27 01:08:00 +0800
+title:  KEGG GO GESA enrich analysis
+date:   2019-05-16 01:08:00 +0800
 categories: document
 tag: 教程
 ---
 
 * content
-{:toc}
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?c </script>
-formula1: $$n==x$$
 
-formula2: $$n!=x$$
 
-formula3: (m==y)
-
-formula4: [m!=y]
-
-formula5: \(k==z\)
-
-formula6: \[k!=z\]
-
-致谢							{#Thanks}
+#超几何分布Hypergeometric Distribution#
 ====================================
-+ 感谢[Less官网](http://lesscss.cn/)的样式，本Jekyll框架的样式都是基于Less官网的样式直接拷贝过来的。只是重构了JS，并且加入了Jekyll语法而已。
-+ 感谢[Github](https://github.com/)提供的代码维护和发布平台
-+ 感谢[Jekyll](https://jekyllrb.com/)团队做出如此优秀的产品
-+ 感谢[Solar](https://github.com/mattvh/solar-theme-jekyll)的原作者[Matt Harzewski](http://www.webmaster-source.com/)，在`2014.11`-`2016.09`的两年间，我的博客选用了此样式模版
+基因的数据是离散的。对基因进行富集分析，类似于高中数学中从黑盒子里取不同颜色的小球，每次取完不放回。超几何分布
+的前提是数据是离散的（基因ID并不连续），数据的总量是已知的（基因总数已知），数据的组成是已知的（基因组注释比较完全）。对于未知物种和无参考基因组的物种，是难以进行基因的富集分析的。
 
+在一次实验中，总数为N的基因列表（表达的基因或者基因组）中中有M个基因和某过程相关，每次抽n个基因，其中所得和该相关基因的数量X=k，那么
+
+$$P_(x=k)=\frac{C_{M}^{k}C_{N-M}^{N-k}}{C_{N}^{n}}$$
 
 使用							{#How-to-use}
 ====================================
