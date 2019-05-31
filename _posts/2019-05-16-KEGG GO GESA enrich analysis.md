@@ -32,9 +32,14 @@ FDR法则通过控制false discovery rate来校正P值，计算FP/(TP+FP)的期�
 
 KEGG 或者GO富集分析的软件和网站有很多。模式生物可以用网站或者专门的包来做富集分析。如：
 [clusterProfiler](http://www.bioconductor.org/packages/release/bioc/html/clusterProfiler.html)
+
 网页版有
 [metascape](http://metascape.org/gp/index.html)
+
 [DAVID](https://david.ncifcrf.gov)
+
 [NOA(官网维护中）](http://europepmc.org/articles/pmc3141273)
+
 非模式生物可以用一些软件包如TBtools手动输入背景注释，差异基因来进行富集分析。
+
 （代码有空再上传）
