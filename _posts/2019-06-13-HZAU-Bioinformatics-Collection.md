@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "protein-MD-simulation"
+title:  "HZAU-Bioinformatics-Collection"
 date:   2019-06-13 13:31:01 +0800
 categories: Backup
 tag: Backup
@@ -24,8 +24,18 @@ Chapter 2    {#backup}
 Chapter 5 Gene Analysis and Annotation    {#backup} 
 -------------------------------
 
+## prokaryotic & mRNA
++ [orffinder](https://www.ncbi.nlm.nih.gov/orffinder/){:target="_blank"}
++ [FGENESB](http://linux1.softberry.com/berry.phtml?topic=fgenesb&group=programs&subgroup=gfindb){:target="_blank"}
++ [GeneMarkS](http://exon.biology.gatech.edu/GeneMark/genemarks.cgi){:target="_blank"}
 
-##Based on sequence
+## eukaryotic
++ [GenScan](http://hollywood.mit.edu/GENSCAN.html)
++ [GeneMark](http://exon.biology.gatech.edu/GeneMark/gmhmme.cgi)
++ 
+
+## Based on sequence
+
 
 ![Simulation]({{ '/styles/images/nelb-fadd.png' | prepend: site.baseurl  }})
 ![Simulation2]({{'/styles/images/ksmh0-a3y4c.gif'| prepend: site.baseurl  }})
