@@ -73,7 +73,7 @@ Chapter 5 Gene Analysis and Annotation    {#backup}
 + [Tfsitescan](http://www.ifti.org/cgi-bin/ifti/Tfsitescan.pl){:target="_blank"}
 ### lncRNA
 + [PLEK](https://sourceforge.net/projects/plek/){:target="_blank"}
-+ [CNCICoding-Non-Coding Index] (https://github.com/www-bioinfo-org/CNCI){:target="_blank"}
++ [CNCICoding-Non-Coding Index](https://github.com/www-bioinfo-org/CNCI){:target="_blank"}
 + [CPAT](http://lilab.research.bcm.edu/cpat/){:target="_blank"}
 + [NONCODE](http://www.noncode.org/blast.php){:target="_blank"}
 + [LNCipedia](https://lncipedia.org/){:target="_blank"}
@@ -171,12 +171,12 @@ Chapter 6 Protein
 + [CELLO ](http://cello.life.nctu.edu.tw){:target="_blank"}
 + [Subnuclear Compartments Prediction System ](http://array.bioengr.uic.edu/subnuclear.htm ){:target="_blank"}
 + [Proteome Analyst Specialized Subcellular Localization Server ](http://webdocs.cs.ualberta.ca/~bioinfo/PA/Sub){:target="_blank"}
-+ [Lokero/TargetLoc/SherLoc2/MultiLoc2/YLoc ](http://abi.inf.uni-tuebingen.de/Research/Systems%20Biology/protein-subcellular-localization 
++ [Lokero TargetLoc SherLoc2 MultiLoc2 YLoc](http://abi.inf.uni-tuebingen.de/Research/Systems%20Biology/protein-subcellular-localization 
 + [TargetP ](http://www.cbs.dtu.dk/services/TargetP){:target="_blank"}
 + [Predotar ](https://urgi.versailles.inra.fr/predotar/predotar.html ){:target="_blank"}
 + [Protein Prowler ](http://bioinf.scmb.uq.edu.au:8080/pprowler_webapp_1-2){:target="_blank"}
 + [PSORT ](http://www.psort.org){:target="_blank"}
-+ [PredictProtein ](https://www.predictprotein.org LocTree ](https://rostlab.org/services/loctree3/){:target="_blank"}
++ [PredictProtein ](https://www.predictprotein.org](https://rostlab.org/services/loctree3/){:target="_blank"}
 
 
 END
