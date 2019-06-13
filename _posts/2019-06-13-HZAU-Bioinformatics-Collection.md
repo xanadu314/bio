@@ -107,16 +107,20 @@ Chapter 6 Protein
 
 ## Second Structure
 + [ANTHEPROT] (https://npsa-prabi.ibcp.fr/cgi-bin/npsa_automat.pl?page=/NPSA/npsa_sopma.html){:target="_blank"}
-+ [COILS] (https://embnet.vital-it.ch/software/COILS_form.html
-NP_176610){:target="_blank"}
++ [COILS] (https://embnet.vital-it.ch/software/COILS_form.html){:target="_blank"}
 
 ## Third Structure
-+ [Phyre2] http://www.sbg.bio.ic.ac.uk/phyre2/html/page.cgi?id=index 直接输入蛋白质序列和E-mail，2小时后反馈结果，同 时给出与之同源的蛋白质的3D结构。
-+ [SWISS-MODEL Workspace](https://swissmodel.expasy.org/interactive){:target="_blank"} 提供Automated Mode、Alignment Mode、Project Mode 等多种分子建模方式
++ [Phyre2] (http://www.sbg.bio.ic.ac.uk/phyre2/html/page.cgi?id=index){:target="_blank"} 
+
+直接输入蛋白质序列和E-mail，2小时后反馈结果，同 时给出与之同源的蛋白质的3D结构。
++ [SWISS-MODEL Workspace](https://swissmodel.expasy.org/interactive){:target="_blank"} 
+
+提供Automated Mode、Alignment Mode、Project Mode 等多种分子建模方式
 
 ##  membrane Protein
 
-+ [DAS：分析原核生物蛋白质的跨膜结构] (http://www.sbc.su.se/~miklos/DAS/maindas.html） +  [TMpred：分析蛋白质的跨膜结构和在膜上的方向] (http://www.ch.embnet.org/software/TMPRED_form.html） 
++ [DAS：分析原核生物蛋白质的跨膜结构] (http://www.sbc.su.se/~miklos/DAS/maindas.html） 
++  [TMpred：分析蛋白质的跨膜结构和在膜上的方向] (http://www.ch.embnet.org/software/TMPRED_form.html） 
 + [HMMTOP: 分析蛋白质跨膜结构和方向] (http://www.enzim.hu/hmmtop/html/submit.html){:target="_blank"} 
 + [TopPred: 分析细胞膜蛋白拓扑结构] (http://mobyle.pasteur.fr/cgi-bin/portal.py?#forms::toppred){:target="_blank"} 
 + [TMHMM: 分析蛋白质跨膜结构] (http://www.cbs.dtu.dk/services/TMHMM/){:target="_blank"}
