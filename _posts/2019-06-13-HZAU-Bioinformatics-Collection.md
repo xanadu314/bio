@@ -23,9 +23,9 @@ Chapter 2    {#backup}
 
 Chapter 5 Gene Analysis and Annotation    {#backup} 
 -------------------------------
-------------------------------------
 
-#Based on sequence#
+
+##Based on sequence
 
 ![Simulation]({{ '/styles/images/nelb-fadd.png' | prepend: site.baseurl  }})
 ![Simulation2]({{'/styles/images/ksmh0-a3y4c.gif'| prepend: site.baseurl  }})
