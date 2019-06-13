@@ -18,8 +18,29 @@ Chapter 1			{#backup}
 TEST
 
 
-Chapter 2    {#backup} 
+Chapter 2  Database  {#backup} 
 -------------------------------
+
+Chpater 3 Sequence Search
+---------------------------------
++ [BLAST   ](https://blast.ncbi.nlm.nih.gov/Blast.cgi )
++ [FASTA      ](https://www.ebi.ac.uk/Tools/sss/ )
++ [WU-BLAST/AB-BLAST ](https://blast.advbiocomp.com/ )
++ [BLAT   ](https://genome.ucsc.edu/FAQ/FAQblat)
+
+Chpater 4 Evolution
+------------------------------
+
+## Evolution Software
++ [PHYLIP 免费的集成演化分析工具  ](http://evolution.genetics.washington.edu/phylip.html)
++ [PAUP商业软件，集成的演化分析工具 ](http://paup.csit.fsu.edu/ )
++ [MEGA免费的图形化集成演化分析工具 ](http://www.megasoftware.net/ )
++ [PHYML最快的ML建树工具 ](http://atgc.lirmm.fr/phyml/ )
++ [PAML ML建树工具 ](http://abacus.gene.ucl.ac.uk/software/paml.html)
++ [Tree-puzzle较快的ML建树工具 ](http://www.tree-puzzle.de/ )
++ [MrBayes基于贝叶斯方法的建树工具 ](http://mrbayes.csit.fsu.edu/ )
+
+
 
 Chapter 5 Gene Analysis and Annotation    {#backup} 
 -------------------------------
@@ -152,14 +173,5 @@ NP_176610)
 + [PSORT ](http://www.psort.org)
 + [PredictProtein ](https://www.predictprotein.org LocTree ](https://rostlab.org/services/loctree3/)
 
-![Simulation]({{ '/styles/images/nelb-fadd.png' | prepend: site.baseurl  }})
-![Simulation2]({{'/styles/images/ksmh0-a3y4c.gif'| prepend: site.baseurl  }})
 
-[MD simulations Refference](http://ibi.hzau.edu.cn/ComputationalBiochemistry/index2.html)
-
-[test my website](https://xanadu314.github.io/mdsimulations/)
- 
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+END
