@@ -106,11 +106,11 @@ Chapter 6 Protein
 + [PredictProtein](https://www.predictprotein.org/){:target="_blank"}
 
 ## Second Structure
-+ [ANTHEPROT] (https://npsa-prabi.ibcp.fr/cgi-bin/npsa_automat.pl?page=/NPSA/npsa_sopma.html){:target="_blank"}
-+ [COILS] (https://embnet.vital-it.ch/software/COILS_form.html){:target="_blank"}
++ [ANTHEPROT](https://npsa-prabi.ibcp.fr/cgi-bin/npsa_automat.pl?page=/NPSA/npsa_sopma.html){:target="_blank"}
++ [COILS](https://embnet.vital-it.ch/software/COILS_form.html){:target="_blank"}
 
 ## Third Structure
-+ [Phyre2] (http://www.sbg.bio.ic.ac.uk/phyre2/html/page.cgi?id=index){:target="_blank"} 
++ [Phyre2](http://www.sbg.bio.ic.ac.uk/phyre2/html/page.cgi?id=index){:target="_blank"} 
 
 直接输入蛋白质序列和E-mail，2小时后反馈结果，同 时给出与之同源的蛋白质的3D结构。
 + [SWISS-MODEL Workspace](https://swissmodel.expasy.org/interactive){:target="_blank"} 
@@ -119,8 +119,8 @@ Chapter 6 Protein
 
 ##  membrane Protein
 
-+ [DAS分析原核生物蛋白质的跨膜结构](http://www.sbc.su.se/~miklos/DAS/maindas.html） 
-+  [TMpre分析蛋白质的跨膜结构和在膜上的方向](http://www.ch.embnet.org/software/TMPRED_form.html） 
++ [DAS分析原核生物蛋白质的跨膜结构](http://www.sbc.su.se/~miklos/DAS/maindas.html){:target="_blank"} 
++ [TMpre分析蛋白质的跨膜结构和在膜上的方向](http://www.ch.embnet.org/software/TMPRED_form.html){:target="_blank"} 
 + [HMMTOP分析蛋白质跨膜结构和方向](http://www.enzim.hu/hmmtop/html/submit.html){:target="_blank"} 
 + [TopPred分析细胞膜蛋白拓扑结构](http://mobyle.pasteur.fr/cgi-bin/portal.py?#forms::toppred){:target="_blank"} 
 + [TMHMM分析蛋白质跨膜结构](http://www.cbs.dtu.dk/services/TMHMM/){:target="_blank"}
@@ -149,7 +149,7 @@ Chapter 6 Protein
 + [Signal-3L: A 3-layer approach for predicting signal peptides ](http://www.csbio.sjtu.edu.cn/bioinf/Signal-3L/){:target="_blank"}
 + [PrediSi: PREDIction of SIgnal peptides ](http://www.predisi.de/){:target="_blank"}
 + [Phobius: A combined transmembrane topology and signal peptide predictor ](http://phobius.sbc.su.se/){:target="_blank"}
-+ [PEPLip: Predictor of Signal Peptide and Lipoprotein Cleavage Sites in Proteins ](http://gpcr.biocomp.unibo.it/cgi/predictors/spep/pred_spepcgi.cgi）
++ [PEPLip:Predictor of Signal Peptide and Lipoprotein Cleavage Sites in Protein](http://gpcr.biocomp.unibo.it/cgi/predictors/spep/pred_spepcgi.cgi){:target="_blank"}
 
 ## N-glc site
 + [NetOGly](http://www.cbs.dtu.dk/services/NetOGlyc/){:target="_blank"}
@@ -176,7 +176,8 @@ Chapter 6 Protein
 + [Predotar ](https://urgi.versailles.inra.fr/predotar/predotar.html ){:target="_blank"}
 + [Protein Prowler ](http://bioinf.scmb.uq.edu.au:8080/pprowler_webapp_1-2){:target="_blank"}
 + [PSORT ](http://www.psort.org){:target="_blank"}
-+ [PredictProtein ](https://www.predictprotein.org](https://rostlab.org/services/loctree3/){:target="_blank"}
++ [PredictProtein](https://www.predictprotein.org){:target="_blank"}
++ [Loctree3](https://rostlab.org/services/loctree3/){:target="_blank"}
 
 
 END
